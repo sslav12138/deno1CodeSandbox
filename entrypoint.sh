@@ -5,9 +5,6 @@ VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/trojan'}
 SS_WSPATH=${SS_WSPATH:-'/shadowsocks'}
-NEZHA_SERVER=nezha.sslav.eu.org
-NEZHA_PORT=5555
-NEZHA_KEY=gGKNydjQEkJVERNiHD
 
 generate_config() {
   cat > config.json << EOF
